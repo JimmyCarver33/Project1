@@ -14,7 +14,7 @@ public class SQLiteDataAdapter implements DataAdapter {
     public int connect() {
         try {
             // db parameters
-            String url = "jdbc:sqlite:C:/Users/Jimmy/Documents/Auburn Classes/COMP 3700 Software Modeling/Project1/store.db";
+            String url = "jdbc:sqlite:C:/Users/Jimmy/Documents/Auburn Classes/COMP 3700 Software Modeling/Project1/data/store.db";
             // create a connection to the database
             conn = DriverManager.getConnection(url);
 
